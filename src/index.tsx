@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Slider from "./Slider";
 import * as serviceWorker from "./serviceWorker";
-import "tachyons/css/tachyons.css";
-
-const items = ["red", "orange", "yellow", "green", "blue"];
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Slider<string> pageSize={3} items={items} />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
